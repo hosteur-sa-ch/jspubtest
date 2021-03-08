@@ -2,7 +2,7 @@ curl --location --request POST 'https://api.cloudflare.com/client/v4/zones/5aea7
 --header 'Content-Type: application/json' \
 --header 'Authorization: Bearer jpv-DAcUGwEQfiAwfBdtCx5YADEbKSl1G11An8VY' \
 --header 'Cookie: __cfduid=dbeb94a60bd6f75f4f64d71bfad07fec61615195792; __cflb=0H28vgHxwvgAQtjUGU56Rb8iNWZVUvXhiu3eAVt955X; __cfruid=901964baf2ca3e526c03b146aca8f0bd822632d4-1615195792' \
---data-raw '{
+--data '{
 "files":[
   "https://jspub.hosteur.fr/myScript.js"]
 }'
